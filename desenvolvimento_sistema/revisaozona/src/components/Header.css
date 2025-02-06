@@ -1,0 +1,34 @@
+.containerHearder{
+    background-color: rebeccapurple;
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-image: url(https://wallpapers.com/images/featured/shrek-4ibeouacwvi03rsx.jpg);
+    background-size: cover;
+    
+
+}
+.p{
+    font-size: 40px;
+     animation: giraLogo 4s infinite linear; 
+     color: green;
+    
+    
+}
+p{
+    font-size:30px ;
+}
+
+
+@keyframes giraLogo {
+    from{
+        transform: rotate(360deg);
+
+    } 
+    to{
+        transform: rotate(0);
+
+    }
+    
+}
