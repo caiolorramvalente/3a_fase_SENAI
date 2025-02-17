@@ -1,0 +1,20 @@
+.container-navbar{
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    background-color: red;
+    height: 70px;
+}
+p{
+    font-size: 20px;
+}
+.cor2{
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    background-color: rebeccapurple;
+    height: 70px;
+
+}

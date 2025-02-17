@@ -1,0 +1,58 @@
+
+button{
+    color: rebeccapurple;
+}
+.img{
+    min-width: 5vw;
+    height:30vw ;
+}
+.divRolagem{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    animation:fundoCor 4s infinite linear ;
+    
+    width: 100%;
+    
+
+}
+@font-face{
+    font-family: 'bonitinha';
+    src: url('./font/Starborn.pdf');
+}
+.divTest{
+  
+   
+    padding: 20px; 
+    border-radius : 10px; 
+    box-shadow : 0px 0px 10px rgba ( 0 , 0 , 0 , 0.2 ); 
+
+}
+@keyframes fundoCor {
+
+    0% {
+        background-color: #FFE5EC;
+      }
+      14% {
+        background-color: #FFC2D1;
+      }
+      28% {
+        background-color: #FFB3C6;
+      }
+      42% {
+        background-color: #FF8FAB;
+      }
+      57% {
+        background-color: #FB6F92;
+      }
+      71% {
+        background-color: #FF8FAB;
+      }
+      85% {
+        background-color: #FFB3C6;
+      }
+      100% {
+        background-color: #FFE5EC;
+      }
+    
+}

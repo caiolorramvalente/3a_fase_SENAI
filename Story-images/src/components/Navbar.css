@@ -1,0 +1,46 @@
+.Navbar{
+    width: 100%;
+    background-color: #EF476F;
+    height: 10vw;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+@font-face{
+    font-family: 'bonitinha';
+    src: url('./font/Starborn.otf');
+}
+.nome{
+    font-family: bonitinha;
+    color: white;
+    animation:  arcoIris 5s infinite linear;
+    font-size: 4vw;
+}
+
+@keyframes arcoIris {
+    0% {
+      color: red;
+    }
+    14% {
+      color: orange;
+    }
+    28% {
+      color: yellow;
+    }
+    42% {
+      color: green;
+    }
+    57% {
+      color: blue;
+    }
+    71% {
+      color: indigo;
+    }
+    85% {
+      color: violet;
+    }
+    100% {
+      color: red;
+    }
+  }
+  
