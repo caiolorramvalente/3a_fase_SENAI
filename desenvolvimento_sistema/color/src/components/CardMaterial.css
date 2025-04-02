@@ -1,0 +1,14 @@
+.tituloH2{
+    
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.container-card{
+    background-color: #fbfbfb;
+    border-radius: 10px;
+    padding: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border: 2px solid rgb(5, 51, 206);
+    margin: 10px;
+    
+
+}

@@ -13,7 +13,7 @@ app.get('/',(req,res)=>{
 
 })
 
-app.get('/usuario',async(req,res)=>{
+app.get('/usuario:id',async(req,res)=>{
 
     try{
         const clientes = await db.select()
