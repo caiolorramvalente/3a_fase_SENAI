@@ -1,0 +1,33 @@
+.App {
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+.chat, .portfolio {
+  margin: 20px;
+}
+
+input {
+  padding: 8px;
+  margin: 5px;
+  width: 200px;
+}
+
+button {
+  padding: 8px;
+  margin: 5px;
+  cursor: pointer;
+}
+
+.portfolio-item {
+  display: inline-block;
+  margin: 10px;
+  border: 1px solid #ddd;
+  padding: 10px;
+  width: 200px;
+}
+
+.portfolio-item img {
+  width: 100%;
+  height: auto;
+}
